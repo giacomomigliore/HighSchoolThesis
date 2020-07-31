@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="@string/titleAggiungiFermata"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#191970"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtConfermaAddFermata"
+        android:layout_width="481dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/edit"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#191970"
+        android:textSize="30sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnConfermaAddFermata"
+        android:layout_width="91dp"
+        android:layout_height="81dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ok" />
+
+</LinearLayout>

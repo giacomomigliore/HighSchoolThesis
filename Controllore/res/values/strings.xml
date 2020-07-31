@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- application and activity -->
+    <string name="app_name">Controllore</string>
+    <string name="controlla">Controlla corsa</string>
+    <string name="nuova">Nuova corsa</string>
+    <string name="gestione">Gestione Corsa</string>
+
+    <!-- menu -->
+    <string name="quit">Esci</string>
+    <string name="update">Aggiornamento db</string>
+    <string name="aggiornamento">Aggiornamento</string>
+
+    <!-- Fragment controllaCorsa -->
+    <string name="titleControlloCorsa">Controllo corsa</string>
+    <string name="istruzioniControllaCorsa">Dopo aver inserito il codice del documento di identità dell\'utente, verrà visualizzata la sua ultima convalida, e confermata la rispettiva eventuale validità. \nInserire un codice completo di 9 caratteri.</string>
+    <string name="inserimentoCodiceControllaCorsa">Inserire codice documento:</string>
+    <string name="buttonControllaCorsa">Controlla</string>
+
+    <!-- Fragment nuovaCorsa -->
+    <string name="titleNuovaCorsa">Nuova Corsa</string>
+    <string name="inserimentoUsernameNuovaCorsa">Username: </string>
+    <string name="inserimentoPasswordNuovaCorsa">Password: </string>
+    <string name="buttonNuovaCorsa">Nuova Corsa</string>
+
+    <!-- Fragment gestioneCorsa -->
+    <string name="titleGestioneCorsa">Gestione Corsa</string>
+    <string name="selezionaLinea">Seleziona linea: </string>
+    <string name="spiegazioneAgiornamento">Scaricamento delle linee sul dispositivo. Verranno scaricati i dati aggiornati dal database. </string>
+    <string name="buttonAggiornamento">Aggiorna</string>
+
+    <!-- controlli -->
+    <string name="ogniCampo">Completare ogni campo</string>
+    <string name="codiceDocumentoMeno9">Inserire 9 caratteri per il codice documento</string>
+    <string name="dimenticatoSelezioneLinea">Selezionare la linea che si sta percorrendo</string>
+    <string name="controlloConessione">Controllare che la connessione ad internet sia attiva</string>
+    <string name="lunghezzaUsername">Inserire un username con lunghezza minore di 20 caratteri</string>
+    
+
+</resources>

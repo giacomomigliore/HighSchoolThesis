@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lets Move</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="hello_world">Hello World</string>
+       
+    <!-- titoli dei Tab -->    
+    <string name="home">Home</string>
+    <string name="ricarica">Ricarica</string>
+    <string name="orari">Orari</string>
+
+    <!-- titoli nel menu -->
+    <string name="quit">Quit</string>
+    <string name="aggiornamento">Aggiorna</string>
+    <string name="logout">Logout</string>
+    <string name="avanzate">Avanzate</string>
+    <string name="account">Account</string>
+    
+    <!-- Login -->
+    
+    <string name="txtUsername">Username</string>
+    <string name="txtPassword">Password</string>
+    <string name="chkRestaCollegato">Resta Collegato</string>
+    <string name="txtPasswordLost">Hai dimenticato la password?</string>
+    <string name="btnLogin">Accedi</string>
+    <string name="txtInfo">Non hai un account?</string>
+    <string name="btnRegistrati">Registrati</string>
+    
+    <!-- Registrazione-->
+    
+    <string name="txtCodDocumento">Codice Documento</string>
+    <string name="txtCognome">Cognome</string>
+    <string name="txtNome">Nome</string>
+    <string name="txtNascita">Nato il [aaaa-mm-gg]</string>
+    <string name="txtIndirizzo">Indirizzo</string>
+    <string name="txtLocalita">Località</string>
+    <string name="txtProvincia">Provincia</string>
+    <string name="txtEmail">Email</string>
+    <string name="txtRiPassword">Conferma Password</string>
+    <string name="txtScrittaRegistrazione">Registrazione</string>
+    <string name="btnRegistrazione">Registrazione</string>
+	<string name="txtCAP">CAP</string>
+
+</resources>

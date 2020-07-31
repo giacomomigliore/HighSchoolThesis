@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/sfondoimpo" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtGestioneCAP"
+            android:paddingLeft="2dp"
+            android:paddingRight="3dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="310dp"
+                android:orientation="vertical"
+                android:paddingLeft="3dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp" >
+
+                    <TextView
+                        android:id="@+id/txtCodDocumento"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.58"
+                        android:background="#22FFFFFF"
+                        android:text="@string/txtCodDocumento"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edtCodDocumento"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/opzioni"
+                        android:ems="10"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp" >
+
+                    <TextView
+                        android:id="@+id/txtCognome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.63"
+                        android:background="#33FFFFFF"
+                        android:text="@string/txtCognome"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edtCognome"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/opzioni"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp" >
+
+                    <TextView
+                        android:id="@+id/txtNome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="278.90"
+                        android:background="#33FFFFFF"
+                        android:text="@string/txtNome"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edtNome"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/opzioni"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp" >
+
+                    <TextView
+                        android:id="@+id/txtNascita"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.31"
+                        android:background="#33FFFFFF"
+                        android:text="@string/txtNascita"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edtNascita"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/opzioni"
+                        android:ems="10"
+                        android:inputType="date"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp" >
+
+                    <TextView
+                        android:id="@+id/txtIndirizzo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.38"
+                        android:background="#33FFFFFF"
+                        android:text="@string/txtIndirizzo"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edtIndirizzo"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/opzioni"
+                        android:ems="10"
+                        android:inputType="textPostalAddress"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp" >
+
+                    <TextView
+                        android:id="@+id/txtLocalita"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.87"
+                        android:background="#44FFFFFF"
+                        android:text="@string/txtLocalita"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edtLocalita"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/opzioni"
+                        android:ems="10"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp" >
+
+                    <TextView
+                        android:id="@+id/txtProvincia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.32"
+                        android:background="#44FFFFFF"
+                        android:text="@string/txtProvincia"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edtProvincia"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/opzioni"
+                        android:ems="10"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/txtCAP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.73"
+                        android:background="#44FFFFFF"
+                        android:text="@string/txtCAP"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edtCAP"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/opzioni"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp" >
+
+                    <TextView
+                        android:id="@+id/txtUsername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="#55FFFFFF"
+                        android:text="@string/txtUsername"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edtUsername"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/opzioni"
+                        android:ems="10"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp" >
+
+                    <TextView
+                        android:id="@+id/txtTitoloEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.35"
+                        android:background="#66FFFFFF"
+                        android:text="@string/txtEmail"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edtEmail"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/opzioni"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp" >
+
+                    <TextView
+                        android:id="@+id/txtPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.73"
+                        android:background="#77FFFFFF"
+                        android:text="@string/txtPassword"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edtPassword"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/opzioni"
+                        android:ems="10"
+                        android:inputType="textPassword"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp" >
+
+                    <TextView
+                        android:id="@+id/txtRiPassword"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.00"
+                        android:background="#88FFFFFF"
+                        android:text="@string/txtRiPassword"
+                        android:textColor="#000000"
+                        android:textColorHint="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edtRiPassword"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/opzioni"
+                        android:ems="10"
+                        android:inputType="textPassword"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/txtGestioneCAP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/txtScrittaRegistrazione"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/btnRegistrazione"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scrollView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            android:background="@drawable/bottonilog"
+            android:text="@string/btnRegistrazione"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </RelativeLayout>

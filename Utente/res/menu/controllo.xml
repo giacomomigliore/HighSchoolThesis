@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.app.ControlloConvalida" >
+    
+    <item android:id="@+id/quit"
+        android:title="@string/quit"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    
+    <item android:id="@+id/aggiornamento"
+        android:title="@string/aggiornamento"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    
+    <item android:id="@+id/logout"
+        android:title="@string/logout"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    
+    <item android:id="@+id/avanzate"
+        android:title="@string/avanzate"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    
+    <item android:id="@+id/account"
+        android:title="@string/account"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

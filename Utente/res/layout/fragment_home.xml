@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sfondo"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="187dp"
+            android:layout_height="63dp">
+
+            <TextView
+                android:id="@+id/txtUtente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Ciao, Utente1"
+                android:textColor="#200000"
+                android:textSize="23dp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <TextClock
+            android:id="@+id/orologio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#200000" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="39dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/txtCorseRimanenti"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="8.88"
+                    android:background="@drawable/backhome"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="3dp"
+                    android:text="Corse/Abbonamento"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#200000"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/txtBigliettiRimasti"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="20dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#200000"
+                    android:textSize="30sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" >
+
+            <TextView
+                android:id="@+id/txtUltimaConvalida"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/backhome"
+                android:paddingTop="5dp"
+                android:text="  Ultima Convalida  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#200000"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:id="@+id/frameLayout1"
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/txtUltimaConvalida"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="38dp"
+                android:paddingRight="20dp"
+                android:paddingTop="3dp" >
+
+                <TextView
+                    android:id="@+id/oraUltimaConvalida"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|top"
+                    android:alpha="1"
+                    android:textColor="#200000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/txtGestioneCognome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:layout_marginLeft="10dp"
+                    android:text="Alle Ore:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#200000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/DataUltimaConvalida"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|top"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#200000"
+                    android:textIsSelectable="false"
+                    android:textSize="15sp" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/txtTempoRimanente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtUltimaConvalida"
+                android:layout_below="@+id/frameLayout1"
+                android:layout_marginTop="43dp"
+                android:background="@drawable/backhome"
+                android:text="  Tempo Rimanente  "
+                android:textColor="#200000"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTempoRimasto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="28dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#200000"
+                android:textSize="20sp" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/txtTempoRimasto"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/progressbar"
+                android:textColor="#00055b" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

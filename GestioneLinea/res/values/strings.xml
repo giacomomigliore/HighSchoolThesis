@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GestioneLinea</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- activity e Fragments gestione linee e fermate -->
+    <string name="btnFermata">Aggiungi fermata</string>
+    <string name="btnLinea">Aggiungi linea</string>
+    <string name="btnEliminaLinea">Elimina linea</string>
+    <string name="btnModificaLinea">Modifica linea</string>
+    <string name="btnConfermaAddFermata">Conferma Aggiunta fermata</string>
+    <string name="titleAggiungiFermata">Aggiunta fermata</string>
+    <string name="titleEliminaLinea">Elimina Linea</string>
+    <string name="titleAggiungiLinea">Aggiunta linea</string>
+    <string name="titleModificaLinea">Modifica linea</string>
+    <string name="primaFermata">Nome prima fermata</string>
+    <string name="nuovaFermata">Aggiungi una fermata</string>
+    <string name="eliminaFermata">Elimina l\'ultima fermata</string>
+    <string name="conferma">Conferma linea</string>
+    <string name="nomeFermata">Nome della fermata</string>
+    <string name="nomeLinea">Nome della linea</string>
+    <string name="codiceLinea">Codice della linea</string>
+    <string name="controlloConessione">Controllare la connessione a interne</string>
+    <string name="aggiornamento">Aggiornamento</string>
+    <string name="quit">Esci</string>
+    <string name="confermaModificaLinea">Conferma modifica Linea</string>
+    <string name="scegliModificaLinea">Scegli</string>
+    <string name="eliminaFermataInModificaLinea">Elimina</string>
+    <string name="btnModificaFermataInModificaLinea">Ok</string>
+    <string name="btnAggiungi">Aggiungi</string>
+    <string name="btnCambiaLinea">Cambia linea</string>
+    <string name="emptyList">Nessun elemento disponibile</string>
+
+</resources>

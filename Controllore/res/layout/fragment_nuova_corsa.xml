@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sfcontrollo"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="@string/titleNuovaCorsa"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <!-- Siccome su db la lunghezza massima è di 20.--><!-- Because the max length on the db is 20. -->
+
+        <TextView
+            android:id="@+id/inserimentoUsernameNuovaCorsa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="7dp"
+            android:maxLength="20"
+            android:text="@string/inserimentoUsernameNuovaCorsa"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+  <EditText
+      android:id="@+id/usernameNuovaCorsa"
+      android:layout_width="190dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="5dp"
+      android:alpha="0.7"
+      android:background="#FFFFFF"
+      android:inputType="text" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="32dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal"
+    android:weightSum="1" >
+
+  <TextView
+      android:id="@+id/inserimentoPasswordNuovaCorsa"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical|left"
+      android:layout_marginLeft="7dp"
+      android:text="@string/inserimentoPasswordNuovaCorsa"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:textColor="#FFFFFF"
+      android:textSize="30sp"
+      android:textStyle="bold" />
+
+  <EditText
+      android:id="@+id/passwordNuovaCorsa"
+      android:layout_width="189dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="23dp"
+      android:layout_marginTop="5dp"
+      android:alpha="0.7"
+      android:background="#FFFFFF"
+      android:ems="10"
+      android:inputType="textPassword" />
+
+</LinearLayout>
+
+<Button
+    android:id="@+id/buttonNuovaCorsa"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="38dp"
+    android:text="@string/buttonNuovaCorsa"
+    android:textColor="#FFFFFF"
+    android:textSize="25sp"
+    android:textStyle="bold" />
+
+</LinearLayout>

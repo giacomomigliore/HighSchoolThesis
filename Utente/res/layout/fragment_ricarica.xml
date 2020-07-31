@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/Biglietteria"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rdb1Corsa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/rdb"
+                android:checked="false"
+                android:text="1 Corsa    "
+                android:textSize="20dp"
+                android:textStyle="bold" />
+"
+
+            <RadioButton
+                android:id="@+id/rdb10Corse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rdb"
+                android:checked="false"
+                android:text="10 Corse  "
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtUltimaConvalida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="--------------------------"
+                android:textColor="#FFFF99"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rdb3giorni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rdb"
+                android:checked="false"
+                android:text="3 Giorni   "
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rdb7Giorni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rdb"
+                android:checked="false"
+                android:text="7 Giorni   "
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rdbMese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rdb"
+                android:checked="false"
+                android:text="1 Mese    "
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rdbAnno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rdb"
+                android:checked="false"
+                android:text="1 Anno    "
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnCompra"
+                android:layout_width="116dp"
+                android:layout_height="49dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:alpha="1"
+                android:background="@drawable/rica"
+                android:singleLine="true"
+                android:text="COMPRA"
+                android:textColor="#FFFF99"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <FrameLayout
+            android:layout_width="136dp"
+            android:layout_height="182dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="-150dp"
+            android:alpha="0.7"
+            android:background="@drawable/smu" >
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

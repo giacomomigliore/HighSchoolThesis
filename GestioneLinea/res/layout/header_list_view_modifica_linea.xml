@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnCambiaLinea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bottoni"
+        android:text="@string/btnCambiaLinea" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/nomeLinea"
+            android:textColor="#191970"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/edtCambiaNome"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/codiceLinea"
+            android:textColor="#191970"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/edtCambiaCodice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1.66"
+            android:background="@drawable/edit"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnInserisciOrariGestioneLinea"
+        android:layout_width="66dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="247dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/orario"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#191970" />
+
+</LinearLayout>
